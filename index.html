@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <div class="logo">
+        <h2>logo</h2>
+    </div>
+    <div class="title">
+        <h2>Encriptador de texto</h2>
+    </div>
+
+    <div class="maincontainer">
+     
+
+        <div class="textAreaContainer">
+            
+            <textarea name="" id="textInput" cols="30" rows="10" placeholder="ingrese el texto aqui"></textarea>
+            <div class="notes">
+                <p>utilizar letras minusculas y sin acento</p>
+            </div>
+            <div class="buttons">
+                <input type="button" value="Encriptar" id="encrypt" onclick="encrypt()">
+                <input type="button" value="Desenccriptar" id="decrypt" onclick="decrypt()">
+            </div>
+
+        </div>
+        <div class="resultArea">
+            <div class="image">
+                <img src="img/search.jpg" alt="" id="animation" />
+            </div>
+            <div class="resultTitle" id="resultTitle">
+                <h2>No se ha encontrado ningún texto</h2>
+            </div>
+            <div class="resultText" id="resultText">un texto de prueba</div>
+
+        </div>
+        
+
+       
+
+
+    </div>
+    
+    <div class="footer">
+        <div class="socialMedia">
+            <p>Kenneth Corrales 2023</p>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <script src="index.js"></script>
+</body>
+</html>
